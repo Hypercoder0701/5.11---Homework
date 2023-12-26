@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <style>
+    .outer-most-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .results {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 150px;
+      background-color: #fff;
+      min-height: 50px;
+      align-self: center;
+      justify-self: center;
+      font-weight: 500;
+      margin-left: 40%;
+    }
+
+    .jobs {
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="outer_most-wrapper">
+    <header class="header">
+      <div class="outer-wrapper">
+        <div class="top-most">
+          <img src="./assets/desktop/logo.svg" class="logo" />
+          <div class="theme">
+            <img src="./assets/desktop/icon-sun.svg" />
+            <input type="checkbox" class="slider" id="theme-changer" />
+            <label for="theme-changer" class="label">
+              <div class="ball"></div>
+            </label>
+            <img src="./assets/desktop/icon-moon.svg" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="results">Search Result</div>
+    <section class="jobs"></section>
+  </div>
+
+  <script type="module" src="./script-3.js"></script>
+  <script type="module" src="./script.js"></script>
+  <script type="text/javascript" src="./data.json"></script>
+</body>
+
+</html>

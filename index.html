@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="outer_most-wrapper">
+    <header class="header">
+      <div class="outer-wrapper">
+        <div class="top-most">
+          <img src="./assets/desktop/logo.svg" class="logo" />
+          <div class="theme">
+            <img src="./assets/desktop/icon-sun.svg" />
+            <input type="checkbox" class="slider" id="theme-changer" />
+            <label for="theme-changer" class="label">
+              <div class="ball"></div>
+            </label>
+            <img src="./assets/desktop/icon-moon.svg" />
+          </div>
+        </div>
+
+        <form action="" method="get" class="form">
+          <div class="wrapper">
+            <img src="./assets/desktop/icon-search.svg" />
+            <input type="text" placeholder="Filter by title, companies, expertise" class="filter-1 input" />
+          </div>
+
+          <div class="wrapper">
+            <img src="./assets/desktop/icon-location.svg" />
+            <input type="text" placeholder="filter by location" class="input filter-2" />
+          </div>
+          <div class="wrapper">
+            <div>
+              <input type="checkbox" id="time-span" class="time-span" style="border: none" />
+              <label for="time-span" class="checkbox-label for-color">
+                Full Time Only</label>
+            </div>
+
+            <button class="btn search-btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </header>
+    <section class="jobs">
+      <div class="job" data-id="1">
+        <div class="job-log1">
+          <img src="./assets/logos/scoot.svg" class="job_logo" style="background-color: hsl(36, 87%, 49%)" />
+        </div>
+
+        <p class="postage-time">5h ago . Full Time</p>
+        <h4 class="job-name for-color">Senior Software Engineer</h4>
+        <p class="company-name">Scoot</p>
+        <p class="country-name">United kingdom</p>
+      </div>
+      <div class="job" data-id="2">
+        <img src="./assets/logos/blogr.svg" class="job_logo" style="background-color: hsl(12, 79%, 52%)" />
+        <p class="postage-time">20h ago . Part Time</p>
+        <h4 class="job-name for-color">Haskel and PureScipt Dev</h4>
+        <p class="company-name">Scoot</p>
+        <p class="country-name">United States</p>
+      </div>
+      <div class="job" data-id="3">
+        <img src="./assets/logos/vector.svg" class="job_logo" style="background-color: hsl(235, 10%, 23%)" />
+        <p class="postage-time">5d ago . Part Time</p>
+        <h4 class="job-name for-color">Midlevel Back End Engineer</h4>
+        <p class="company-name">Vector</p>
+        <p class="country-name">Russia</p>
+      </div>
+      <div class="job" data-id="4">
+        <img src="./assets/logos/officelite.svg" class="job_logo" style="background-color: hsl(227, 62%, 48%)" />
+        <p class="postage-time">5d ago . Full Time</p>
+        <h4 class="job-name for-color">Senior Application Engineer</h4>
+        <p class="company-name">Scoot</p>
+        <p class="country-name">Japan</p>
+      </div>
+      <div class="job" data-id="5">
+        <img src="./assets/logos/pod.svg" class="job_logo" style="background-color: hsl(216, 46%, 14%)" />
+        <p class="postage-time">2d ago . Part Time</p>
+        <h4 class="job-name for-color">Remote DevOps Engineer</h4>
+        <p class="company-name">Pod</p>
+        <p class="country-name">Japan</p>
+      </div>
+      <div class="job" data-id="6">
+        <img src="./assets/logos/creative.svg" class="job_logo" style="background-color: hsl(295, 55%, 21%)" />
+        <p class="postage-time">4d ago . Part Time</p>
+        <h4 class="job-name for-color">Desktop Support Manager</h4>
+        <p class="company-name">Scoot</p>
+        <p class="country-name">Germany</p>
+      </div>
+      <div class="job" data-id="7">
+        <img src="./assets/logos/pomodoro.svg" class="job_logo" style="background-color: hsl(254, 71%, 45%)" />
+        <p class="postage-time">1w ago . Full Time</p>
+        <h4 class="job-name for-color">iOS Engineer</h4>
+        <p class="company-name">Scoot</p>
+        <p class="country-name">United States</p>
+      </div>
+      <div class="job" data-id="8">
+        <img src="./assets/logos/maker.svg" class="job_logo" style="background-color: hsl(218, 58%, 31%)" />
+        <p class="postage-time">5h ago . Full Time</p>
+        <h4 class="job-name for-color">Senior EJB Developer</h4>
+        <p class="company-name">Maker</p>
+        <p class="country-name">United kingdom</p>
+      </div>
+      <div class="job" data-id="9">
+        <img src="./assets/logos/coffeeroasters.svg" class="job_logo" style="background-color: hsl(29, 60%, 87%)" />
+        <p class="postage-time">1w ago . Part Time</p>
+        <h4 class="job-name for-color">Senior FrontEnd Developer</h4>
+        <p class="company-name">Scoot</p>
+        <p class="country-name">Singapore</p>
+      </div>
+      <div class="job" data-id="10">
+        <img src="./assets/logos/mastercraft.svg" class="job_logo" style="background-color: hsl(0, 0%, 12%)" />
+        <p class="postage-time">2w ago . Full Time</p>
+        <h4 class="job-name for-color">App & Website designer</h4>
+        <p class="company-name">Mastercraft</p>
+        <p class="country-name">United States</p>
+      </div>
+      <div class="job" data-id="11">
+        <img src="./assets/logos/crowdfund.svg" class="job_logo" style="background-color: hsl(157, 57%, 50%)" />
+        <p class="postage-time">1m ago . Part Time</p>
+        <h4 class="job-name for-color">Senior Software Engineer</h4>
+        <p class="company-name">crowdfund</p>
+        <p class="country-name">New Zealand</p>
+      </div>
+
+      <div class="job" data-id="12">
+        <img src="./assets/logos/typemaster.svg" class="job_logo" style="background-color: hsl(22, 89%, 52%)" />
+        <p class="postage-time">1m ago . Part Time</p>
+        <h4 class="job-name for-color">Technical Lead Engineer</h4>
+        <p class="company-name">Typemaster</p>
+        <p class="country-name">United kingdom</p>
+      </div>
+
+      <div class="job not-visible" data-id="13">
+        <img src="./assets/logos/crowdfund.svg" class="job_logo" style="background-color: hsl(157, 57%, 50%)" />
+        <p class="postage-time">1m ago . Full Time</p>
+        <h4 class="job-name for-color">Front-end Developer</h4>
+        <p class="company-name">Junior Full-Stack Developer</p>
+        <p class="country-name">New Zealand</p>
+      </div>
+      <div class="job not-visible" data-id="14">
+        <img src="./assets/logos/typemaster.svg" class="job_logo" style="background-color: hsl(22, 89%, 52%)" />
+        <p class="postage-time">1m ago . Part Time</p>
+        <h4 class="job-name for-color">Technical Lead Engineer</h4>
+        <p class="company-name">Typemaster</p>
+        <p class="country-name">United kingdom</p>
+      </div>
+      <div class="job not-visible" data-id="15">
+        <img src="./assets/logos/blogr.svg" class="job_logo" style="background-color: hsl(12, 79%, 52%)" />
+        <p class="postage-time">1m ago . Full Time</p>
+        <h4 class="job-name for-color">Midweight Front-end developer</h4>
+        <p class="company-name">Blogr</p>
+        <p class="country-name">United States</p>
+      </div>
+    </section>
+    <div class="btn-load"><button class="btn">Load More</button></div>
+  </div>
+  <footer class="page-footer" id="footer">
+    <div class="footer-container">
+      <h4>Contact Us</h4>
+      <div class="icons-wrapper">
+        <img src="./assets/logos/icons8-facebook.svg" alt="img" />
+        <img src="./assets/logos/icons8-twitter.svg" alt="img" />
+        <img src="./assets/logos/icons8-instagram.svg" alt="img" />
+        <img src="./assets/logos/icons8-youtube.svg" alt="img" />
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./data.json"></script>
+  <script type="module" src="./script.js"></script>
+</body>
+
+</html>
